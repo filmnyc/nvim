@@ -1,0 +1,7 @@
+require("jon.plugins-setup")
+require("jon.core.options")
+require("jon.core.colorscheme")
+require("jon.core.keymaps")
+require("jon.plugins.nvim-tree")
+require("jon.plugins.bufferline")
+require("jon.plugins.lualine")
