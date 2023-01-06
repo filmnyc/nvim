@@ -18,10 +18,10 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- open horizontal split
 keymap.set("n", "<leader>se", "<C-w>=") -- make windows equal
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current window
 
-keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
-keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
-keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab
-keymap.set("n", "<leader>tp", ":tabp<CE>") -- go to previous tab
+-- keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
+-- keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
+-- keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab
+-- keymap.set("n", "<leader>tp", ":tabp<CE>") -- go to previous tab
 
 keymap.set("n", "<leader>w", ":w<CR>") -- save file
 keymap.set("n", "<leader>q", ":qall<CR>") -- quit
@@ -47,6 +47,6 @@ keymap.set("n", ";", ":")
 -- Floaterm
 keymap.set("n", "<leader>t", ":FloatermToggle<CR>")
 keymap.set("t", "<leader>t", "<C-\\><C-n>:FloatermToggle<CR>")
-keymap.set("n", "<leader>tn", ":FloatermNext<CR>")
-keymap.set("n", "<leader>tp", ":FloatermPrev<CR>")
-keymap.set("n", "<leader>to", ":FloatermNew<CR>")
+keymap.set("n", "<leader>nt", ":FloatermNext<CR>")
+keymap.set("n", "<leader>pt", ":FloatermPrev<CR>")
+keymap.set("n", "<leader>ft", ":FloatermNew<CR>")
